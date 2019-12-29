@@ -1,50 +1,117 @@
-
 {
-    "destination":
-    [
+    "destination" : [
         {
-            "id":1,
-            "city":"port sudan",
-            "country":"sudan",
-            "description":"Visit port sudan for an amazing trip and unforgttble adventure",
-            "activities":"activities",
-            "imageUrl":"https://1.bp.blogspot.com/-4c16UpK3ZnQ/WgWP6NrQo1I/AAAAAAAAB3I/AmyBPZ-RWPQjLiBmaF9Wm67YLA6Nk8NewCLcBGAs/s1600/a76593c7758f326a76f7f506b449d1c0--sudan-lighthouses.jpg"
-            
+            "id" : 1 ,
+            "city" : "port sudan",
+            "country" : "sudan",
+            "description" : "Visit port sudan for an amazing trip and unforgttble adventure",
+            "activities" : "activities",
+            "imageUrl"  : "https://1.bp.blogspot.com/-4c16UpK3ZnQ/WgWP6NrQo1I/AAAAAAAAB3I/AmyBPZ-RWPQjLiBmaF9Wm67YLA6Nk8NewCLcBGAs/s1600/a76593c7758f326a76f7f506b449d1c0--sudan-lighthouses.jpg"
+
         },
-            {
-                "id":2,
-                "city":"Al pgrawea",
-                "country":"sudan",
-                "description":"Visit Al pgrawea for an amazing trip and unforgttble adventure",
-                "activities":"activities",
-                "imageUrl":"https://cdn.al-ain.com/images/2018/7/12/127-165521-sudanese-pyramids-monuments-culture_700x400.jpeg"
-                
-            },
-            {"id":3,
-            "city":"kaslla",
-            "country":"sudan",
-            "description":"Visit kaslla for an amazing trip and unforgttble adventure",
-            "activities":"activities",
-            "imageUrl":"https://www.altaghyeer.info/wp-content/uploads/2018/03/%D9%83%D8%B3%D9%84%D8%A733.jpg"
-                
-            },
-            {
-                "id":4,
-                "city":"Meroe pyramids",
-                "country":"sudan",
-                "description":"Visit Meroe pyramids for an amazing trip and unforgttble adventure",
-                "activities":"activities",
-                "imageUrl":"https://media-cdn.tripadvisor.com/media/photo-o/11/d2/cf/85/sale-el-sol.jpg"
-                
-            },
-            {"id":5,
-            "city":"Gebel Barkl",
-            "country":"sudan",
-            "description":"Visit Gebel Barkl for an amazing trip and unforgttble adventure",
-            "activities":"activities",
-            "imageUrl":"https://media-cdn.tripadvisor.com/media/photo-o/07/3c/0c/bf/vista-panoramica.jpg"
-                
-            }
-            ]
+        {
+            "id" : 2 ,
+            "city" : "Al pgrawea",
+            "country" : "sudan",
+            "description" : "Visit Al pgrawea for an amazing trip and unforgttble adventure",
+            "activities" : "activities",
+            "imageUrl"  : "https://cdn.al-ain.com/images/2018/7/12/127-165521-sudanese-pyramids-monuments-culture_700x400.jpeg"
+
+        },
+        {
+            "id" : 3 ,
+            "city" : "kaslla",
+            "country" : "sudan",
+            "description" : "Visit kaslla for an amazing trip and unforgttble adventure",
+            "activities" : "activities",
+            "imageUrl"  : "https://www.altaghyeer.info/wp-content/uploads/2018/03/%D9%83%D8%B3%D9%84%D8%A733.jpg"
+
+        },
+        {
+            "id" : 4 ,
+            "city" : "Meroe pyramids",
+            "country" : "sudan",
+            "description" : "Visit Meroe pyramids for an amazing trip and unforgttble adventure",
+            "activities" : "activities",
+            "imageUrl"  : "https://media-cdn.tripadvisor.com/media/photo-o/11/d2/cf/85/sale-el-sol.jpg"
+
+        },
+        {
+            "id" : 5 ,
+            "city" : "Gebel Barkl",
+            "country" : "sudan",
+            "description" : "Visit Gebel Barkl for an amazing trip and unforgttble adventure",
+            "activities" : "activities",
+            "imageUrl"  : "https://media-cdn.tripadvisor.com/media/photo-o/07/3c/0c/bf/vista-panoramica.jpg"
+
+        }
+
+    
+        
+
+    ],
+    "activities" : [
+        {
+            "id" : 1 ,
+            "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-o/1a/0b/c9/c2/red-sea-secret-diving.jpg",
+            "name" : "diving in red sea",
+            "type" : "sea tour",
+            "starttime" : ["12:30pm" , " 2:00 pm" ],
+            "rating" : 3,
+            "price " : 125
+
+        },
+        {
+            "id" : 2 ,
+            "imageUrl" : "https://i.pinimg.com/236x/c3/0f/ba/c30fba45b06cdb59d751de3e12c5e89a.jpg",
+            "name" : "wslking tour in marawe",
+            "type" : "sea tour",
+            "starttime" : ["7:30 Am" , " 1:00 pm" ],
+            "rating" : 2,
+            "price " : 100
+
+        },
+        {
+            "id" : 3 ,
+            "imageUrl" : "https://i.pinimg.com/236x/c3/0f/ba/c30fba45b06cdb59d751de3e12c5e89a.jpg",
+            "name" : "wslking tour in marawe",
+            "type" : "sea tour",
+            "starttime" : ["7:30 Am" , " 1:00 pm" ],
+            "rating" : 2,
+            "price " : 100
+
+        },
+        {
+            "id" : 4 ,
+            "imageUrl" : "https://i.pinimg.com/236x/c3/0f/ba/c30fba45b06cdb59d751de3e12c5e89a.jpg",
+            "name" : "walking tour in marawe",
+            "type" : "sea tour",
+            "starttime" : ["7:30 Am" , " 1:00 pm" ],
+            "rating" : 2,
+            "price " : 100
+
+        },
+        {
+            "id" : 5 ,
+            "imageUrl" : "https://i.pinimg.com/236x/c3/0f/ba/c30fba45b06cdb59d751de3e12c5e89a.jpg",
+            "name" : "walking tour in marawe",
+            "type" : "sea tour",
+            "starttime" : ["7:30 Am" , " 1:00 pm" ],
+            "rating" : 2,
+            "price " : 100
+
+        },
+        {
+            "id" : 6 ,
+            "imageUrl" : "https://i.pinimg.com/236x/c3/0f/ba/c30fba45b06cdb59d751de3e12c5e89a.jpg",
+            "name" : "walking tour in marawe",
+            "type" : "sea tour",
+            "starttime" : ["7:30 Am" , " 1:00 pm" ],
+            "rating" : 2,
+            "price " : 100
+
+        }
+    ]
+    
     
 }
